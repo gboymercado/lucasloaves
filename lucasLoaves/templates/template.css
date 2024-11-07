@@ -1,0 +1,29 @@
+main{min-height:70vh;}
+
+.copyright{
+  font-size: 0.7rem;
+  color: #d4b996;
+}
+
+.sitemapItem{text-align: center;}
+
+.sitemapItem a{
+  color: #d4b996;
+  line-height: 200%;
+}
+
+.fab{color: #d4b996 ;}
+
+#footerSocial{
+  color: #d4b996;
+  text-align: center;
+}
+
+#navLogo, #footerLogo{color: #d4b996;}
+#sitemap-row{align-items: center;}
+
+@media (min-width: 768px){
+  .sitemapItem{text-align: left;}
+  #footerSocial{text-align: right}
+  #shoppingCart{margin-left: auto;}
+}
